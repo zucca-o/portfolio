@@ -1,0 +1,211 @@
+/* Basic */
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans'); */
+
+html {
+    box-sizing: border-box;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, li, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, footer, header {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font-family: "Open Sans", sans-serif !important;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+    color: #005555;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #efffff;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+
+/* header */
+.contents {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+.container.header {
+    background-color: #007a7a;
+}
+
+.profile { 
+    height: 50vh;
+}
+
+.profile-content {
+    display: inline-block;
+}
+
+#profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+#profile-text {
+    margin: 1rem;
+}
+
+.profile-description {
+    font-size: 1.5rem;
+}
+
+p.profile-description {
+    color: #efffff;
+}
+
+
+/* main */
+
+.horizontal-line {
+    color: #007a7a;
+}
+
+.elements {
+    padding: 1rem;
+}
+
+.btn {
+    border: 1px solid #86b3b3;
+    color: #005555;
+}
+
+.btn:hover {
+    background-color: #86b3b3;
+    color: white;
+}
+
+.card {
+    border: 1px solid #007a7a;
+}
+
+.elements-title-skills {
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.skill-card-head {
+    font-size: 3rem;
+    line-height: 1.5rem;
+    background-color: #007a7a;
+    color: #efffff;
+    text-align: center;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+
+.btn.project-card {
+    margin-top: auto;
+}
+
+/* resume */
+
+.header.resume {
+    background-color: #007a7a;
+}
+
+.job-title {
+    color: #efffff;
+}
+
+.personal-info {
+    width: 300px;
+}
+
+.personal-info-icon {
+    font-size: 2rem;
+    color: #005555;
+}
+
+.btn.personal-info {
+    background-color: #86b3b3;
+}
+
+.sub-text {
+    font-size: 0.8rem;
+}
+
+.footer.resume {
+    background-color: #007a7a;
+}
+
+.btn-download {
+    background-color: #86b3b3;
+    border: 0;
+}
+
+.btn-download:hover {
+    background-color: #efffff;
+    border: 0;
+}
+
+.btn-download-text {
+    color: #005555;
+}
+
+.btn-download-text:hover {
+    color: #007a7a;
+}
+
+.footer-link {
+    color: #efffff;
+}
+
+.footer-link:hover {
+    color: #86b3b3;
+}
+
+/* footer */
+.footer-mobile {
+    background-color: #007a7a;
+    padding: 0;
+}
+
+.footer-content.mobile {
+    display: flex;
+    justify-content: center;
+}
+
+.icons.mobile {
+    margin: 1rem;
+}
+
+.icons.mobile td {
+    padding: 0.5rem;
+}
+
+.container.footer-not-mobile {
+    background-color: #007a7a;
+    
+}
+
+.footer-content.not-mobile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30vh;
+}
+
+.icons.not-mobile td {
+    padding: 0.5rem;
+}
+
+.social-icons {
+    font-size: 2rem;
+    color: #efffff;
+}
